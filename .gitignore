@@ -1,0 +1,17 @@
+
+*.vsidx
+.vs/XMFC/v17/.suo
+*.db
+*.bin
+*.lock
+*.ipch
+*.obj
+*.tlog
+*.txt
+*.pch
+*.recipe
+*.lib
+*.idb
+*.log
+*.pdb
+*.res

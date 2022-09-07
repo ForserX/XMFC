@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ribbon">
+      <UniqueIdentifier>{38b172c9-7478-4055-8ff3-b5366f11fb41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Ribbon\Elements">
+      <UniqueIdentifier>{55ef2f37-1377-49a9-b6fe-adddccc51fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{031e2679-d5de-4782-96cf-7979d41384fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Property">
+      <UniqueIdentifier>{b4b7274c-f8f4-4072-aff4-c3c1f6848dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{3e905d14-e25e-467b-a7e9-f0ab5338cac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Theme">
+      <UniqueIdentifier>{7ce19484-06c8-49be-8fb6-5645dcf135ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="XRibbonBar.h">
+      <Filter>Ribbon</Filter>
+    </ClInclude>
+    <ClInclude Include="XRibbonConstructor.h">
+      <Filter>Ribbon</Filter>
+    </ClInclude>
+    <ClInclude Include="XRibbonCheckBox.h">
+      <Filter>Ribbon\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="XRibbonRadioBox.h">
+      <Filter>Ribbon\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="XDockablePane.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="XWinApp.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="PropCtrl.h">
+      <Filter>Property</Filter>
+    </ClInclude>
+    <ClInclude Include="PropWnd.h">
+      <Filter>Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBox.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboBox.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="EditText.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="NotifyToolbar.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Static.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualManagerWin10Dark.h">
+      <Filter>Theme</Filter>
+    </ClInclude>
+    <ClInclude Include="XMDIMainFrame.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XMFC.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="NotifyToolbar.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="XRibbonBar.cpp">
+      <Filter>Ribbon</Filter>
+    </ClCompile>
+    <ClCompile Include="XRibbonConstructor.cpp">
+      <Filter>Ribbon</Filter>
+    </ClCompile>
+    <ClCompile Include="XRibbonCheckBox.cpp">
+      <Filter>Ribbon\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="XRibbonRadioBox.cpp">
+      <Filter>Ribbon\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="XDockablePane.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="XWinApp.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="PropCtrl.cpp">
+      <Filter>Property</Filter>
+    </ClCompile>
+    <ClCompile Include="PropWnd.cpp">
+      <Filter>Property</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualManagerWin10Dark.cpp">
+      <Filter>Theme</Filter>
+    </ClCompile>
+    <ClCompile Include="XMDIMainFrame.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckBox.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboBox.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="EditText.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Static.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="XMFC.rc">
+      <Filter>Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmap1.bmp">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="ToggleBox\toggle_20.png">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="ui_elements.png">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="ToggleBox\box_20.png">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="ToggleBox\box_24.png">
+      <Filter>Res</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
