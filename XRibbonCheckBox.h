@@ -12,7 +12,7 @@ public:
 
 	void OnDraw(CDC* pDC) override;
 
-	[[nodiscard]] CSize GetIntermediateSize(CDC* pDC) override;
+	[[nodiscard]] virtual CSize GetIntermediateSize(CDC* pDC) override;
 
 };
 

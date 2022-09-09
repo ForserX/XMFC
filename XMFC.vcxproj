@@ -165,8 +165,15 @@
     <ClInclude Include="XDockablePane.h" />
     <ClInclude Include="XMDIMainFrame.h" />
     <ClInclude Include="XRibbonBar.h" />
+    <ClInclude Include="XRibbonButtonsGroup.h" />
+    <ClInclude Include="XRibbonCaptionButton.h" />
+    <ClInclude Include="XRibbonCategory.h" />
     <ClInclude Include="XRibbonCheckBox.h" />
     <ClInclude Include="XRibbonConstructor.h" />
+    <ClInclude Include="XRibbonContextCaption.h" />
+    <ClInclude Include="XRibbonInfo.h" />
+    <ClInclude Include="XRibbonPanel.h" />
+    <ClInclude Include="XRibbonQuickAccessToolBar.h" />
     <ClInclude Include="XRibbonRadioBox.h" />
     <ClInclude Include="XWinApp.h" />
   </ItemGroup>
@@ -191,8 +198,15 @@
     <ClCompile Include="XMDIMainFrame.cpp" />
     <ClCompile Include="XMFC.cpp" />
     <ClCompile Include="XRibbonBar.cpp" />
+    <ClCompile Include="XRibbonButtonsGroup.cpp" />
+    <ClCompile Include="XRibbonCaptionButton.cpp" />
+    <ClCompile Include="XRibbonCategory.cpp" />
     <ClCompile Include="XRibbonCheckBox.cpp" />
     <ClCompile Include="XRibbonConstructor.cpp" />
+    <ClCompile Include="XRibbonContextCaption.cpp" />
+    <ClCompile Include="XRibbonInfo.cpp" />
+    <ClCompile Include="XRibbonPanel.cpp" />
+    <ClCompile Include="XRibbonQuickAccessToolBar.cpp" />
     <ClCompile Include="XRibbonRadioBox.cpp" />
     <ClCompile Include="XWinApp.cpp" />
   </ItemGroup>

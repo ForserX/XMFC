@@ -246,7 +246,6 @@ public:
 
 			pDC->SelectStockObject(BLACK_PEN);
 		}
-		// the color of the text on the tab
 
 		// the color of the non selected tab text
 		return RGB(255, 255, 255);

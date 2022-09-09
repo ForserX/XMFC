@@ -1,6 +1,8 @@
 #include "pch.h"
 #include "XRibbonRadioBox.h"
 
+XRibbonRBManager* gRibonRBManager = nullptr;
+
 void XRibbonRadioBox::OnDraw(CDC* pDC)
 {
 	ASSERT_VALID(this);
@@ -50,4 +52,41 @@ void XRibbonRadioBox::OnDraw(CDC* pDC)
 	{
 		pDC->SetTextColor(clrTextOld);
 	}
+}
+
+void XRibbonRadioBox::SetCheck(bool bVal)
+{
+	m_bIsChecked = bVal;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// Manager
+
+void XRibbonRBManager::SetCheck(size_t ID)
+{
+	size_t CurGroupID = 0;
+
+	for (XRibbonRadioBox* RBox : List)
+	{
+		if (RBox->GetID() == ID)
+		{
+			CurGroupID = RBox->GetGroupID();
+			RBox->SetCheck(true);
+			break;
+		}
+	}
+
+	for (XRibbonRadioBox* RBox : List)
+	{
+		if (RBox->GetGroupID() == CurGroupID && RBox->GetID() != ID)
+		{
+			RBox->SetCheck(false);
+			RBox->Redraw();
+		}
+	}
+}
+
+void XRibbonRBManager::Emplace(XRibbonRadioBox* &RibbonRB) noexcept
+{
+	List.push_back(RibbonRB);
 }

@@ -93,6 +93,27 @@
     <ClInclude Include="XMDIMainFrame.h">
       <Filter>Window</Filter>
     </ClInclude>
+    <ClInclude Include="XRibbonPanel.h">
+      <Filter>Ribbon\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="XRibbonQuickAccessToolBar.h">
+      <Filter>Ribbon\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="XRibbonButtonsGroup.h">
+      <Filter>Ribbon\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="XRibbonCaptionButton.h">
+      <Filter>Ribbon\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="XRibbonCategory.h">
+      <Filter>Ribbon\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="XRibbonContextCaption.h">
+      <Filter>Ribbon\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="XRibbonInfo.h">
+      <Filter>Ribbon\Elements</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="XMFC.cpp">
@@ -151,6 +172,27 @@
     </ClCompile>
     <ClCompile Include="Static.cpp">
       <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="XRibbonQuickAccessToolBar.cpp">
+      <Filter>Ribbon\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="XRibbonButtonsGroup.cpp">
+      <Filter>Ribbon\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="XRibbonCaptionButton.cpp">
+      <Filter>Ribbon\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="XRibbonCategory.cpp">
+      <Filter>Ribbon\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="XRibbonContextCaption.cpp">
+      <Filter>Ribbon\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="XRibbonInfo.cpp">
+      <Filter>Ribbon\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="XRibbonPanel.cpp">
+      <Filter>Ribbon\Elements</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
